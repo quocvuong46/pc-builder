@@ -1,0 +1,38 @@
+====================================
+HƯỚNG DẪN BUILD VÀ CHẠY ỨNG DỤNG
+====================================
+
+1. YÊU CẦU HỆ THỐNG:
+   - Java JDK 11 trở lên
+   - Maven 3.6+ (nếu build từ source)
+
+2. BUILD ỨNG DỤNG:
+   a. Mở Command Prompt hoặc Terminal
+   b. Di chuyển đến thư mục Source:
+      cd Source
+   c. Chạy lệnh Maven:
+      mvn clean package
+   d. File JAR sẽ được tạo trong thư mục Source/target/PCBuilder.jar
+   e. Copy file này vào thư mục Executable/
+
+3. CHẠY ỨNG DỤNG:
+   a. Di chuyển đến thư mục Executable
+   b. Windows: Double-click vào run.bat
+      Hoặc chạy lệnh: java -jar PCBuilder.jar
+   c. Linux/Mac: java -jar PCBuilder.jar
+
+4. KHỞI TẠO DATABASE:
+   - Database sẽ tự động được tạo khi chạy ứng dụng lần đầu
+   - File database: Database/pcbuilder.db
+   - Nếu muốn reset database, xóa file pcbuilder.db và chạy lại ứng dụng
+
+5. CẤU TRÚC PROJECT:
+   - Source/: Mã nguồn Java
+   - Database/: SQL scripts và database file
+   - Executable/: File JAR và script chạy
+   - Doc/: Báo cáo đồ án
+
+6. LƯU Ý:
+   - Đảm bảo các thư mục Source, Database, Executable nằm trong cùng thư mục MTK
+   - Không di chuyển các file riêng lẻ, giữ nguyên cấu trúc thư mục
+   - Nếu gặp lỗi encoding tiếng Việt, thêm tham số: java -Dfile.encoding=UTF-8 -jar PCBuilder.jar

@@ -1,0 +1,67 @@
+========================================
+THÔNG TIN DỰ ÁN GITHUB
+========================================
+
+Tên dự án: PC Builder - Ứng dụng xây dựng cấu hình máy tính
+Mô tả: Ứng dụng Java Swing áp dụng Design Patterns (Singleton, Decorator) 
+       để xây dựng cấu hình máy tính
+
+========================================
+LIÊN KẾT GITHUB
+========================================
+
+Repository URL: https://github.com/quocvuong46/pc-builder
+  
+========================================
+CẤU TRÚC DỰ ÁN
+========================================
+
+PC-Builder/
+├── Source/                 # Mã nguồn Java
+├── Database/              # Database files và scripts
+├── Executable/            # File JAR và scripts chạy
+├── Doc/                   # Báo cáo đồ án
+└── GitHub_Info.txt        # File này
+
+========================================
+CÔNG NGHỆ SỬ DỤNG
+========================================
+
+- Language: Java 11
+- GUI: Java Swing
+- Database: SQLite
+- Build Tool: Maven
+- Design Patterns: Singleton, Decorator
+
+========================================
+TÍNH NĂNG CHÍNH
+========================================
+
+1. Chọn linh kiện máy tính (CPU, RAM, VGA, etc.)
+2. Tính toán tổng giá cấu hình
+3. Thêm dịch vụ bổ sung (Decorator Pattern):
+   - Bảo hành mở rộng
+   - Dịch vụ lắp ráp
+   - Cài đặt phần mềm
+   - Giảm giá
+4. Quản lý database với Singleton Pattern
+5. Hiển thị chi tiết cấu hình
+
+========================================
+TÁC GIẢ
+========================================
+
+Họ tên: Đỗ Quốc Vương
+MSSV: 2212496
+Lớp: CTK46A
+Email: 2212496@dlu.edu.vn
+
+========================================
+MÔN HỌC
+========================================
+
+Môn: Mẫu thiết kế (Design Patterns)
+Giảng viên: Đoàn Minh Khuê
+Năm học: 2024-2025
+
+
