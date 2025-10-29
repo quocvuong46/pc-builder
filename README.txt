@@ -209,12 +209,11 @@ THÊM DATABASE TABLE:
                         THÔNG TIN LIÊN HỆ
 ================================================================================
 
-Tác giả: [Điền tên]
-MSSV: [Điền MSSV]
-Email: [Điền email]
-GitHub: [Điền link GitHub sau khi tạo repository]
+Tác giả: Đỗ Quốc Vương
+MSSV: 2212496
+Email: doquocvuongyh@gmail.com
 
-Giảng viên: [Điền tên GV]
+Giảng viên: ThS Đoàn Minh Khuê
 Môn học: Mẫu thiết kế (Design Patterns)
 Năm học: 2024-2025
 
